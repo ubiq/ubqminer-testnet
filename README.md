@@ -44,7 +44,7 @@ accessible from command line. The ethminer is ready to go.
 | Builds | Release | Date |
 | ------ | ------- | ---- |
 | Last   | [![GitHub release](https://img.shields.io/github/release/ethereum-mining/ethminer/all.svg)](https://github.com/ethereum-mining/ethminer/releases) | [![GitHub Release Date](https://img.shields.io/github/release-date-pre/ethereum-mining/ethminer.svg)](https://github.com/ethereum-mining/ethminer/releases) |
-| Stable | [![GitHub release](https://img.shields.io/github/release/ethereum-mining/ethminer.svg)](https://github.com/ethereum-mining/ethminer/releases) | [![GitHub Release Date](https://img.shields.io/github/release-date/ethereum-mining/ethminer.svg)](https://github.com/ethereum-mining/ethminer/releases) |
+| Stable | [![GitHub release](https://img.shields.io/github/release/ethereum-mining/ethminer.svg)](https://github.com/ethereum-mining/ethminer/releases/latest) | [![GitHub Release Date](https://img.shields.io/github/release-date/ethereum-mining/ethminer.svg)](https://github.com/ethereum-mining/ethminer/releases/latest) |
 
 
 ## Usage
@@ -172,11 +172,11 @@ This can be done with one of the 2 ways:
 
 ### Insufficient CUDA driver
 
-    ```shell
-    Error: Insufficient CUDA driver: 9010
-    ```
+```text
+Error: Insufficient CUDA driver: 9010
+```
 
-    You have to upgrade your Nvidia drivers. On Linux, install `nvidia-396` package or newer.
+You have to upgrade your Nvidia drivers. On Linux, install `nvidia-396` package or newer.
 
 
 [Amazon S3 is needed]: https://docs.travis-ci.com/user/uploading-artifacts/
